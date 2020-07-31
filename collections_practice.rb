@@ -37,3 +37,6 @@ end
 def find_a(array)
   array.find_all {|arr| arr.start_with?('a')}
 end
+
+def sum_array(n)
+  
