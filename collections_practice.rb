@@ -26,4 +26,5 @@ def reverse_array(n)
 end
 
 def kesha_maker(array)
-  
+  array.gsub(/[array.length = 2)]/, '$')
+end
