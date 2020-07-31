@@ -41,3 +41,4 @@ end
 def sum_array(n)
   n.inject(:+)
 end
+
