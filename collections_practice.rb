@@ -35,5 +35,5 @@ new_array
 end
 
 def find_a(letter)
-  letter.find(a)
+  letter.find("a")
 end
