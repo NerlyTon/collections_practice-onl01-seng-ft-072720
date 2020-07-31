@@ -34,6 +34,6 @@ end
 new_array
 end
 
-def find_a(letter)
-  letter.find("a")
+def find_a(array)
+  array.find_all {|arr| arr.
 end
