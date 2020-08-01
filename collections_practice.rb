@@ -44,10 +44,10 @@ end
 
 def add_s(word)
   new_word = word.each_with_index.collect{|element, index|}
-  if index = 1 
-    element = element 
-  else
+  if index != 1 
     element = element + "s"
+  else
+    element = element
   end
   new_word
 end
