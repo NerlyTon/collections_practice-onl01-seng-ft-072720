@@ -50,5 +50,6 @@ def add_s(word)
   else
     new_word == element = element + "s"
   end
+  new_word
 end
 
