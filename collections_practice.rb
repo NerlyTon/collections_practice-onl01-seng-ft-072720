@@ -43,20 +43,16 @@ def sum_array(n)
 end
 
 def add_s(word)
-  new_word = []
-  word.each_with_index.collect{|element, index|}
-  "#{index == 1"
-  element = element
+  new_word = word.each_with_index.collect{|element, index|}
+
+
+
+
+  if index = 1 
+    element = element 
+  else
+    new_word = element = element + "s"
+  end
+  new_word
 end
-
-
-
-
-#   if index = 1 
-#     element = element 
-#   else
-#     new_word = element = element + "s"
-#   end
-#   new_word
-# end
 
