@@ -50,4 +50,4 @@ def add_s(word)
     element = element
   end
 end
-end
+
