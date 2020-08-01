@@ -45,7 +45,7 @@ end
 def add_s(word)
   new_word = []
   word.each_with_index.collect{|element, index|}
-  index == 1
+  "#{index == 1"
   element = element
 end
 
