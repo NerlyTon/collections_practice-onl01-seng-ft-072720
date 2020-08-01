@@ -48,7 +48,7 @@ def add_s(word)
   if index = 1 
     element = element 
   else
-    new_word == element = element + "s"
+    new_word = element = element + "s"
   end
   new_word
 end
