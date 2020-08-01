@@ -49,6 +49,7 @@ def add_s(word)
   else
     element = element
   end
+  end
   new_word
 end
 
